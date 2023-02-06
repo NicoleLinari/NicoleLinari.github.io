@@ -50,6 +50,7 @@ button {
 }
 
 button.active{
+  padding: 45px;
   background-color:#DCE1DE;
   box-shadow: 0 5px 5px 0 #808080, 0 5px 5px 0 #808080;
 }
