@@ -41,6 +41,7 @@ p {
 }
 
 button {
+  padding: 45px;
   font-family: 'Arvo', serif;
   font-size: 30px;
   font-weight: bold;
@@ -50,7 +51,6 @@ button {
 }
 
 button.active{
-  padding: 45px;
   background-color:#DCE1DE;
   box-shadow: 0 5px 5px 0 #808080, 0 5px 5px 0 #808080;
 }
@@ -62,9 +62,9 @@ button:hover {
 }
 
 .bottoneheader{
-  padding: 45px;
   color: #DCE1DE;
   background-color: #9CC5A1;
+  padding: 45px;
 }
 
 .bottoneheader:hover{
@@ -79,7 +79,7 @@ button:hover {
   background-color: #9CC5A1;
 }
 
-.bottoneinizio:hover{
+.bottoneinizio:hover, .bottoneinizio:hover{
   color: #3ab454;
   cursor: pointer;
 }
@@ -96,7 +96,7 @@ button:hover {
   background-color: #DCE1DE;
 }
 
-.bottonerispsx:hover{
+.bottonerispsx:hover, .bottonerispsx:active{
   color: #7EBDC3;
   cursor: pointer;
 }
@@ -113,29 +113,31 @@ button:hover {
   background-color: #DCE1DE;
 }
 
-.bottonerispdx:hover{
+.bottonerispdx:hover, .bottonerispdx:active{
   color: #7A6263;
   cursor: pointer;
 }
 
 .puntovuoto{
   margin: 10px 10px;
-  height: 35px;
-  width: 35px;
+  padding: 0 0;
+  height: 50px;
+  width: 50px;
   background-color: #DCE1DE;
   border-style: solid;
   border-color: #FFFFFF;
   border-radius: 50%;
 }
 
-.puntovuoto:hover {
+.puntovuoto:hover, .puntovuoto:active{
   box-shadow: none;
 }
 
 .puntopieno{
   margin: 10px 10px;
-  height: 35px;
-  width: 35px;
+  padding: 0 0;
+  height: 50px;
+  width: 50px;
   border: none;
   background-color: #9CC5A1;
   border-style: solid;
@@ -143,7 +145,7 @@ button:hover {
   border-radius: 50%;
 }
 
-.puntopieno:hover {
+.puntopieno:hover, .puntopieno:active {
   cursor: pointer;
   background-color: #DCE1DE;
   border-color: #FFFFFF;
