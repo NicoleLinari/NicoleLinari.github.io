@@ -79,7 +79,7 @@ button:hover {
   background-color: #9CC5A1;
 }
 
-.bottoneinizio:hover, .bottoneinizio:hover{
+.bottoneinizio:hover{
   color: #3ab454;
   cursor: pointer;
 }
@@ -96,7 +96,7 @@ button:hover {
   background-color: #DCE1DE;
 }
 
-.bottonerispsx:hover, .bottonerispsx:active{
+.bottonerispsx:hover{
   color: #7EBDC3;
   cursor: pointer;
 }
@@ -113,7 +113,7 @@ button:hover {
   background-color: #DCE1DE;
 }
 
-.bottonerispdx:hover, .bottonerispdx:active{
+.bottonerispdx:hover{
   color: #7A6263;
   cursor: pointer;
 }
@@ -129,7 +129,7 @@ button:hover {
   border-radius: 50%;
 }
 
-.puntovuoto:hover, .puntovuoto:active{
+.puntovuoto:hover{
   box-shadow: none;
 }
 
