@@ -145,7 +145,7 @@ button:hover {
   border-radius: 50%;
 }
 
-.puntopieno:hover, .puntopieno:active {
+.puntopieno:hover{
   cursor: pointer;
   background-color: #DCE1DE;
   border-color: #FFFFFF;
